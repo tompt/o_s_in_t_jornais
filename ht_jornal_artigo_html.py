@@ -35,6 +35,8 @@ def TIRAR_ACENTOS_E_OBTER_NOME_FICHEIRO(TITULO):
 from newspaper import Article
 URL='http://www.cnn.com/2014/01/12/world/asia/north-korea-charles-smith/index.html'
 URL="http://thehackernews.com/2017/05/browser-camera-microphone.html"
+URL="http://thehackernews.com/2017/05/shadow-brokers-exploits.html"
+
 a = Article(URL, keep_article_html=True)
 
 a.download()
@@ -54,7 +56,8 @@ print ("------------------------\n%s\n" % TITULO)
 #print ("DATA: %s\n\n " % DATA)
 #print ("NOTICIA: %s\n\n " % NOTICIA)
 #print ("IMAGEM: %s\n\n " % IMAGEM)
-print(a.article_html)
+print( "%s<br>\n<br/>FIM" % a.article_html)
+
 
 #escrever ficheiro
 FICHEIRO = TIRAR_ACENTOS_E_OBTER_NOME_FICHEIRO(TITULO)
@@ -62,3 +65,33 @@ FICHEIRO = open(FICHEIRO,'w')
 #TUDO = ('<h1>%s</h1>\n<h3>Autor(es):%s</h3>\n<h3>Data:%s</h3>\n<h5>URL:%s</h5><img width="707" height="403" src="%s"/>\n<h3>%s</h3>\n\n\n\n\n<h3>Hash SHA512:%s</h3><h3>HTML:</br></h3>%s\n' % (TITULO,AUTORES[0],DATA,URL,IMAGEM,NOTICIA,HASH_TEXTO(NOTICIA),a.article_html))
 TUDO = ( "%s<br>FIM" % a.article_html)
 FICHEIRO.write(TUDO)
+
+
+import newspaper
+cbs_paper = newspaper.build(URL, memoize_articles=False)
+print ("\n--------------------\nTamanho : %s\n----------------------" % cbs_paper.size())
+#1030
+
+#extraccao de feeds
+print ("\n--------------------\nFeeds\n----------------------")
+for feed_url in cbs_paper.feed_urls():
+    print (feed_url)
+print ("\n--------------------\\Feeds\n----------------------")
+#util: https://media.readthedocs.org/pdf/newspaper/latest/newspaper.pdf
+
+
+"""
+>>> import newspaper
+>>> cnn1 = newspaper.build('http://cnn.com')
+>>> urls1 = set([article.url for article in cnn1.articles])
+>>> cnn2 = newspaper.build('http://cnn.com')
+>>> urls2 = set([article.url for article in cnn2.articles])
+>>> urls1.intersection(urls2)
+set() # no urls are shared between calls when caching is on
+>>> cnn1_fresh = newspaper.build('http://cnn.com', memoize_articles=False)
+>>> urls1_fresh = set([article.url for article in cnn1_fresh.articles])
+>>> cnn2_fresh = newspaper.build('http://cnn.com', memoize_articles=False)
+>>> urls2_fresh = set([article.url for article in cnn2_fresh.articles])
+>>> len(urls1_fresh.intersection(urls2_fresh))
+1078 # same same urls are returned because caching is on
+"""

@@ -6,7 +6,9 @@ url = 'http://fox13now.com/2013/12/30/new-year-new-laws-obamacare-pot-guns-and-d
 url = 'https://pplware.sapo.pt/informacao/falha-informatica-cancela-voos-da-british-airways/'
 url = 'http://www.jn.pt/desporto/interior/hugo-miguel-utilizou-video-arbitro-sem-alterar-decisoes-8514129.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+JN-ULTIMAS+%28JN+-+Ultimas%29'
 url = 'http://www.jn.pt/justica/interior/traficante-apanhado-pela-psp-disse-que-a-droga-era-do-cao-8513279.html?utm_source=jn.pt&utm_medium=recomendadas&utm_campaign=afterArticle&_ga=2.98145244.211586019.1496012241-1777478357.1496012215'
+
 url = "https://pplware.sapo.pt/apple/iphone-culpado-queda-voo-804-egyptair/"
+url = "http://thehackernews.com/2017/05/browser-camera-microphone.html"
 
 article = Article(url)
 article.download()
@@ -116,33 +118,6 @@ def PALAVRAS_CHAVE(PALAVRA,NOTICIA):
         if letters & set(word):
             print(word)
     return ""
-"""------------------------------------------------------------------------------------------------------------------"""
-'''
-#"LIXO"
-import newspaper
-
-cnn_paper = newspaper.build('http://thehackernews.com')
-print ("Artigos:")
-x=0
-ARTIGOS=[]
-for article in cnn_paper.articles:
-    x=x+1
-    print("%s - %s" % (x,article.url))
-    ARTIGOS.append('<br/>%s - %s' % (x,article.url))
-    #u'http://www.cnn.com/2013/11/27/justice/tucson-arizona-captive-girls/'
-    #u'http://www.cnn.com/2013/12/11/us/texas-teen-dwi-wreck/index.html'
-
-print ("Categorias:")
-x=0
-lista=[]
-for category in cnn_paper.category_urls():
-    x=x+1
-    print("%s - %s" % (x,category))
-    lista.append("<br/>%s - %s" % (x,category))
-
-print (lista)
-'''
-"""------------------------------------------------------------------------------------------------------------------"""
 #obter hash
 HASH512= HASH_TEXTO(NOTICIA)
 OCORRENCIAS = PALAVRAS_CHAVE("apple",NOTICIA)

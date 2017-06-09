@@ -21,13 +21,28 @@ def download(url, file_name):
         print ("Gravada imagem como %s" % url)
 
 
-NOME_DO_FICHEIRO=("%s_%s" % (data,"CorreioManha.jpg"))
-download(url,NOME_DO_FICHEIRO)
+#NOME_DO_FICHEIRO=("%s_%s" % (data,"CorreioManha.jpg"))
+#download(url,NOME_DO_FICHEIRO)
+
+LISTA=["CorreioManha","Publico","DiarioNoticias"]
+for JORNAL in LISTA:
+    url=("%s%s_%s.jpg" % ('http://jornaisdodia.tk/imgjornais/',data,JORNAL))
+    NOME_DO_FICHEIRO = ("%s_%s.jpg" % (data, JORNAL))
+    download(url, NOME_DO_FICHEIRO)
+    print (JORNAL)
+
+
+MINIATURAS=["http://jornaisdodia.tk/imgjornais/20170609_DiarioNoticias_t.jpg","http://jornaisdodia.tk/imgjornais/20170609_CorreioManha_t.jpg"]
+for MINIATURA in MINIATURAS:
+    url=("%s%s_%s" % ('http://jornaisdodia.tk/imgjornais/',data,MINIATURA))
+    NOME_DO_FICHEIRO = ("%s_%s" % (data, MINIATURA))
+    download(url, NOME_DO_FICHEIRO)
+    print (MINIATURA)
 # /////------------------simples mas funcional-------------------
 """
 from requests import get  # to make GET request
 lista=[]
-#url = 'http://jornaisdodia.tk/imgjornais/20170609_CorreioManha.jpg'
+url = ("%s%s_%s" % ('http://jornaisdodia.tk/imgjornais/',data,'CorreioManha.jpg'))
 
 def download(url, file_name):
     # open in binary mode

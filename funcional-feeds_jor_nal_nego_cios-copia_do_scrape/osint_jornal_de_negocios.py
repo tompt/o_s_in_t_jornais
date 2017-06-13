@@ -36,6 +36,10 @@ def post_is_in_db(title):
 def post_is_in_db_with_old_timestamp(title):
     with open(db, 'r') as database:
         for line in database:
+            #line=line.encode('UTF-8')
+            #print(line)
+            #line=line.decode('UTF-8')
+            #print("-----------",line)
             if title in line:
                 print("Noticia já existe na BD. Saltando..")
                 #ts_as_string = line.split('|', 3)[1]

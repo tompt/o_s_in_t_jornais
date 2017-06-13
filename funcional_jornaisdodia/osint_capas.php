@@ -152,11 +152,56 @@ $visitantes = $hits[0];
 
 				<div class="tab default-tab" id="tab4">
 					<h3><?php print $titulo;?></h3>
+				
+				<h4><a href="osint_imgs_capasgrandes.php">Capas grandes</a></h4>
+				
+				<P>Capas de jornais existentes:</p>
 					<?php
+					if ($handle = opendir('osint_capas_jornais/')) 
+					{
+						while (false !== ($file = readdir($handle)))
+						{
+							if ($file != "." && $file != ".." && strtolower(substr($file, strrpos($file, '.') + 1)) == 'htm')
+							{
+								#obter a lista de datas. Parse à linha do nome do ficheiro
+								
+								#$thelist .= '<li><a href="osint_capas_jornais/'.$file.'">'.$file.'</a></li>';								
+
+								$str = 'o meu carrito anda a 100 200 300 ...';
+								$str = $file;
+								preg_match_all('!\d+!', $str, $matches);
+								$var = implode(' ', $matches[0]);
+								#print_r("<br>-".$matches[0]);
+								#FUNCIONA - print($var."<br>");
+								
+								#vai buscar apenas as datas
+								$thelist .= '<li><a href="osint_capas.php?data='.$var.'">Data:'.$var.'</a></li>';
+							}
+						}
+						closedir($handle);
+					}
+					?>				
+				<UL>
+				<P><?=$thelist?></p>
+				</UL>
+				
+				<?php
+				# obter capas dando apenas a data..
+					if (isset($_GET['data'])) {
+						$data= $_GET['data'];
 						header('Content-Type: text/html; charset=utf-8');
-						$log = file_get_contents("osint_imgs_capas.htm");
+						#$ficheiro="osint_imgs_capas.htm";
+						$ficheiro="osint_capas_jornais/osint_imgs_capas_".$data.".htm";
+						$log = file_get_contents($ficheiro);
+						#echo($ficheiro);
+						echo utf8_encode($log);						
+					}else{
+						// Fallback behaviour goes here
+						header('Content-Type: text/html; charset=utf-8');
+						$ficheiro="osint_imgs_capas.htm";
+						$log = file_get_contents($ficheiro);
 						echo utf8_encode($log);
-						#include "euroMostWanted.htm";
+					}
 					?>
 				</div>
 			

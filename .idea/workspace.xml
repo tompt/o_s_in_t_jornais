@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="osint_imagens_dos_jornais_do_dia.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="osint_imagens_dos_jornais_do_dia.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/osint_imagens_dos_jornais_do_dia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="289">
+              <caret line="66" column="37" lean-forward="false" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -28,7 +28,7 @@
       <file leaf-file-name="sec_new_spaper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3213">
+            <state relative-caret-position="680">
               <caret line="189" column="145" lean-forward="false" selection-start-line="189" selection-start-column="145" selection-end-line="189" selection-end-column="145" />
               <folding>
                 <element signature="e#126#141#0" expanded="true" />
@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sec_new_spaper_com_bd.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sec_new_spaper_com_bd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper_com_bd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4012">
-              <caret line="311" column="10" lean-forward="false" selection-start-line="311" selection-start-column="10" selection-end-line="311" selection-end-column="10" />
+            <state relative-caret-position="3162">
+              <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
               <folding>
                 <element signature="e#127#142#0" expanded="true" />
               </folding>
@@ -52,7 +52,7 @@
       <file leaf-file-name="osint_jornal_de_negocios.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/funcional-feeds_jor_nal_nego_cios-copia_do_scrape/osint_jornal_de_negocios.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="1870">
               <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="126" selection-end-column="10" />
               <folding />
             </state>
@@ -78,9 +78,10 @@
         <option value="$PROJECT_DIR$/../scrape/funcional-feeds_jor_nal_nego_cios/osint_jornal_de_negocios.py" />
         <option value="$PROJECT_DIR$/funcional_jornaisdodia/osint_capas_jornais/osint_imgs_capas_20170612.htm" />
         <option value="$PROJECT_DIR$/funcional-feeds_jor_nal_nego_cios-copia_do_scrape/osint_jornal_de_negocios.py" />
-        <option value="$PROJECT_DIR$/funcional_jornaisdodia/osint_imagens_dos_jornais_do_dia.py" />
         <option value="$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper.py" />
         <option value="$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper_com_bd.py" />
+        <option value="$PROJECT_DIR$/funcional_jornaisdodia/osint_imagens_dos_jornais_do_dia.py" />
+        <option value="$PROJECT_DIR$/funcional_jornaisdodia/novo/osint_imagens_dos_jornais_do_dia.py" />
       </list>
     </option>
   </component>
@@ -124,14 +125,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cripto\Documents\GitHub\scrape\sec_new_spaper" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sec_new_spaper">
+  <component name="RunManager" selected="Python.osint_imagens_dos_jornais_do_dia (1)">
     <configuration default="false" name="osint_jornal_de_negocios" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,23 +146,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="o_s_in_t_jornais" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../scrape/funcional-feeds_jor_nal_nego_cios/osint_jornal_de_negocios.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="osint_imagens_dos_jornais_do_dia" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jornaisdodia" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="o_s_in_t_jornais" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jornaisdodia/osint_imagens_dos_jornais_do_dia.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -213,6 +197,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="o_s_in_t_jornais" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="osint_imagens_dos_jornais_do_dia (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/funcional_jornaisdodia/novo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="o_s_in_t_jornais" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/funcional_jornaisdodia/novo/osint_imagens_dos_jornais_do_dia.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -353,18 +354,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.osint_jornal_de_negocios" />
-      <item index="1" class="java.lang.String" itemvalue="Python.osint_imagens_dos_jornais_do_dia" />
-      <item index="2" class="java.lang.String" itemvalue="Python.osint_imagens_dos_jornais_do_dia (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.osint_jornal_de_negocios (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.sec_new_spaper" />
+      <item index="1" class="java.lang.String" itemvalue="Python.osint_imagens_dos_jornais_do_dia (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.osint_jornal_de_negocios (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sec_new_spaper" />
+      <item index="4" class="java.lang.String" itemvalue="Python.osint_imagens_dos_jornais_do_dia (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.sec_new_spaper" />
-        <item index="1" class="java.lang.String" itemvalue="Python.osint_imagens_dos_jornais_do_dia (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.osint_jornal_de_negocios (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.osint_jornal_de_negocios" />
-        <item index="4" class="java.lang.String" itemvalue="Python.osint_imagens_dos_jornais_do_dia" />
+        <item index="0" class="java.lang.String" itemvalue="Python.osint_imagens_dos_jornais_do_dia (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.osint_imagens_dos_jornais_do_dia (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.sec_new_spaper" />
+        <item index="3" class="java.lang.String" itemvalue="Python.osint_jornal_de_negocios (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.osint_jornal_de_negocios" />
       </list>
     </recent_temporary>
   </component>
@@ -387,10 +388,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44853738" sideWeight="0.08324552" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44853738" sideWeight="0.0943098" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44853738" sideWeight="0.9167545" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44853738" sideWeight="0.9056902" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -421,78 +422,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jornaisdodia/osint_imagens_dos_jornais_do_dia.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scrape/funcional-feeds_jor_nal_nego_cios/osint_jornal_de_negocios.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#85#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jornaisdodia/osint_imagens_dos_jornais_do_dia.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jornaisdodia/baixar_magens_dos_jornais_do_dia.py" />
-    <entry file="file://$PROJECT_DIR$/../scrape/funcional-feeds_jor_nal_nego_cios/osint_jornal_de_negocios.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1479">
-          <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-          <folding>
-            <element signature="e#85#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jornaisdodia/osint_imagens_dos_jornais_do_dia.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/osint_capas_jornais/osint_imgs_capas_20170612.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/osint_imagens_dos_jornais_do_dia.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python/Python35-32/Lib/site-packages/bs4/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="1010" column="0" lean-forward="false" selection-start-line="1010" selection-start-column="0" selection-end-line="1010" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3213">
+        <state relative-caret-position="3128">
           <caret line="189" column="145" lean-forward="false" selection-start-line="189" selection-start-column="145" selection-end-line="189" selection-end-column="145" />
           <folding>
             <element signature="e#126#141#0" expanded="true" />
@@ -500,9 +440,203 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper_com_bd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding>
+            <element signature="e#127#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/funcional-feeds_jor_nal_nego_cios-copia_do_scrape/osint_jornal_de_negocios.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="1870">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="126" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/osint_imagens_dos_jornais_do_dia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3128">
+          <caret line="189" column="145" lean-forward="false" selection-start-line="189" selection-start-column="145" selection-end-line="189" selection-end-column="145" />
+          <folding>
+            <element signature="e#126#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper_com_bd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding>
+            <element signature="e#127#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional-feeds_jor_nal_nego_cios-copia_do_scrape/osint_jornal_de_negocios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="126" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/osint_imagens_dos_jornais_do_dia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3128">
+          <caret line="189" column="145" lean-forward="false" selection-start-line="189" selection-start-column="145" selection-end-line="189" selection-end-column="145" />
+          <folding>
+            <element signature="e#126#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper_com_bd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding>
+            <element signature="e#127#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional-feeds_jor_nal_nego_cios-copia_do_scrape/osint_jornal_de_negocios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="126" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/osint_imagens_dos_jornais_do_dia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3128">
+          <caret line="189" column="145" lean-forward="false" selection-start-line="189" selection-start-column="145" selection-end-line="189" selection-end-column="145" />
+          <folding>
+            <element signature="e#126#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper_com_bd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#127#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional-feeds_jor_nal_nego_cios-copia_do_scrape/osint_jornal_de_negocios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="126" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/osint_imagens_dos_jornais_do_dia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3128">
+          <caret line="189" column="145" lean-forward="false" selection-start-line="189" selection-start-column="145" selection-end-line="189" selection-end-column="145" />
+          <folding>
+            <element signature="e#126#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper_com_bd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#127#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional-feeds_jor_nal_nego_cios-copia_do_scrape/osint_jornal_de_negocios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="126" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jornaisdodia/osint_imagens_dos_jornais_do_dia.py" />
+    <entry file="file://$PROJECT_DIR$/../scrape/funcional-feeds_jor_nal_nego_cios/osint_jornal_de_negocios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#85#102#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jornaisdodia/osint_imagens_dos_jornais_do_dia.py" />
+    <entry file="file://$PROJECT_DIR$/jornaisdodia/baixar_magens_dos_jornais_do_dia.py" />
+    <entry file="file://$PROJECT_DIR$/../scrape/funcional-feeds_jor_nal_nego_cios/osint_jornal_de_negocios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479">
+          <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding>
+            <element signature="e#85#102#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jornaisdodia/osint_imagens_dos_jornais_do_dia.py" />
+    <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/osint_capas_jornais/osint_imgs_capas_20170612.htm" />
+    <entry file="file://C:/Python/Python35-32/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="1010" column="0" lean-forward="false" selection-start-line="1010" selection-start-column="0" selection-end-line="1010" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional-feeds_jor_nal_nego_cios-copia_do_scrape/osint_jornal_de_negocios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
           <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="126" selection-end-column="10" />
           <folding />
         </state>
@@ -510,11 +644,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper_com_bd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4012">
-          <caret line="311" column="10" lean-forward="false" selection-start-line="311" selection-start-column="10" selection-end-line="311" selection-end-column="10" />
+        <state relative-caret-position="3162">
+          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
           <folding>
             <element signature="e#127#142#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/novo/osint_capasjornais.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/novo/osint_imagens_dos_jornais_do_dia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scrape/sec_new_spaper/sec_new_spaper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="189" column="145" lean-forward="false" selection-start-line="189" selection-start-column="145" selection-end-line="189" selection-end-column="145" />
+          <folding>
+            <element signature="e#126#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/osint_imgs_capasgrandes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1156">
+          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/osint_europol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funcional_jornaisdodia/osint_imagens_dos_jornais_do_dia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="66" column="37" lean-forward="false" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

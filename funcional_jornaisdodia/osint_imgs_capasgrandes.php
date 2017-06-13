@@ -183,23 +183,11 @@ $visitantes = $hits[0];
 				<P><?=$thelist?></p>
 				</UL>
 				
-				<?php
-				# obter capas dando apenas a data..
-					if (isset($_GET['data'])) {
-						$data= $_GET['data'];
+					<?php
 						header('Content-Type: text/html; charset=utf-8');
-						#$ficheiro="osint_imgs_capas.htm";
-						$ficheiro="osint_capas_jornais/osint_imgs_capasgrandes_".$data.".htm";
-						$log = file_get_contents($ficheiro);
-						#echo($ficheiro);
-						echo utf8_encode($log);						
-					}else{
-						// Fallback behaviour goes here
-						header('Content-Type: text/html; charset=utf-8');
-						$ficheiro="osint_imgs_capas.htm";
-						$log = file_get_contents($ficheiro);
+						$log = file_get_contents("osint_imgs_capasgrandes.htm");
 						echo utf8_encode($log);
-					}
+						include "osint_imgs_capasgrandes.htm";
 					?>
 				</div>
 			

@@ -36,6 +36,7 @@ from newspaper import Article
 URL='http://www.cnn.com/2014/01/12/world/asia/north-korea-charles-smith/index.html'
 URL="http://thehackernews.com/2017/05/browser-camera-microphone.html"
 URL="http://thehackernews.com/2017/05/shadow-brokers-exploits.html"
+URL="https://pplware.sapo.pt/gadgets/voa-na-boa-onde-pilotar-drone/"
 
 a = Article(URL, keep_article_html=True)
 

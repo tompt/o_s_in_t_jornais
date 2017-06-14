@@ -9,6 +9,7 @@ url = 'http://www.jn.pt/justica/interior/traficante-apanhado-pela-psp-disse-que-
 
 url = "https://pplware.sapo.pt/apple/iphone-culpado-queda-voo-804-egyptair/"
 url = "http://thehackernews.com/2017/05/browser-camera-microphone.html"
+url = "http://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_supplicant-conf/"
 
 article = Article(url)
 article.download()
@@ -98,7 +99,7 @@ def PALAVRAS_CHAVE(PALAVRA,NOTICIA):
     """--------------------------------------"""
     my_dict = {i: LISTA.count(i) for i in LISTA}
 
-    print (my_dict)  # or print(my_dict) in python-3.x
+    print ("\n%s\nDicionario 2 - pq apenas titulo..:\n%s\n%s" % ("*"*10,my_dict,"*"*10))  # or print(my_dict) in python-3.x
     #{'a': 3, 'c': 3, 'b': 1}
 
 
@@ -118,6 +119,8 @@ def PALAVRAS_CHAVE(PALAVRA,NOTICIA):
         if letters & set(word):
             print(word)
     return ""
+
+
 #obter hash
 HASH512= HASH_TEXTO(NOTICIA)
 OCORRENCIAS = PALAVRAS_CHAVE("apple",NOTICIA)
@@ -129,7 +132,7 @@ print("Houve %s palavras encontradas - titulo" % OCORRENCIAS)
 FICHEIRO = TIRAR_ACENTOS_E_OBTER_NOME_FICHEIRO(TITULO)
 FICHEIRO = open(FICHEIRO,'w')
 #TUDO = ('<h1>%s</h1>\n<h3>Autor(es):%s</h3>\n<h3>Data:%s</h3>\n<h5>URL:%s</h5><img width="707" height="403" src="%s"/>\n<h3>%s</h3>\n\nCategorias:%s\n\n\n\nArtigos:\n\n\n<h3>HTML:</br></h3>%s' % (TITULO,AUTORES[0],DATA,URL,IMAGEM,NOTICIA,lista,HTML))
-TUDO = ('<h1>%s</h1>\n<h3>Autor(es):%s</h3>\n<h3>Data:%s</h3>\n<h5>URL:%s</h5><img width="707" height="403" src="%s"/>\n<h3>%s</h3>\n\n\n\n\n<h3>Hash SHA512:%s</h3><h3>HTML:</br></h3>%s\n' % (TITULO,AUTORES[0],DATA,URL,IMAGEM,NOTICIA,HASH512,HTML))
+TUDO = ('<h1>%s</h1>\n<h3>Autor(es):%s</h3>\n<h3>Data:%s</h3>\n<h5>URL:%s</h5>\n<img width="707" height="403" src="%s"/>\n<h3>%s</h3>\n\n\n\n\n<h3>Hash SHA512:%s</h3><h3>HTML:</br></h3>%s\n' % (TITULO,AUTORES[0],DATA,URL,IMAGEM,NOTICIA,HASH512,HTML))
 #TUDO = TUDO.encode("utf-8")
 FICHEIRO.write(TUDO)
 

@@ -11,7 +11,7 @@ def HASH_TEXTO(NOTICIA):
 def TIRAR_ESPACOS(TITULO):
     """----------- TIRAR ACENTOS E TROCAR ESPACOS POR UNDERSCORES"""
     TITULO = TITULO.replace(" ", "_")
-    #print(TITULO) #era do c√£o passa a #era_do_c√£o
+    #print(TITULO) #era do c„o passa a #era_do_c„o
     """tirar barras / """
     TITULO = TITULO.replace("/", "BARRA")
     return TITULO
@@ -19,7 +19,7 @@ def TIRAR_ESPACOS(TITULO):
 def REMOVER_ACENTOS(TITULO):
     import unicodedata
     nkfd_form = unicodedata.normalize('NFKD', TITULO)
-    TITULO= u"".join([c for c in nkfd_form if not unicodedata.combining(c)]) #c√£o passa a cao
+    TITULO= u"".join([c for c in nkfd_form if not unicodedata.combining(c)]) #c„o passa a cao
     #print ("titulo sem acentos:%s" % TITULO)
     return TITULO
 

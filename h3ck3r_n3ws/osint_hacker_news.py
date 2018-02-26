@@ -12,6 +12,7 @@ import sys
 feed_name="Hacker News"
 url='http://www.jornaldenegocios.pt/funcionalidades/Rss.aspx'
 url='https://thehackernews.com/feeds/posts/default?alt=rss'
+url='http://feeds.feedburner.com/TheHackersNews'
 
 #db = '/var/www/radio/data/feeds.db'
 db= "./osint_feeds_hackernews.db"
@@ -142,8 +143,10 @@ for TITULO in posts_to_print:
 
 feed = feedparser.parse(url)
 print ("%s %s" % (feed['entries'][0]['title'],feed['entries'][0]['description']))
+
 '''
-#TOTALMENTE FUNCIONAL - vai buscar todos os dados e mostra
+TOTALMENTE FUNCIONAL - vai buscar todos os dados e mostra
+'''
 x=0
 for key in feed["entries"]:
     print("\nnoticia %s" % x)
@@ -162,7 +165,7 @@ for key in feed["entries"]:
     print("Imagem:%s" % IMAGEM)
     print("Link:%s" % url)
     x=x+1
-'''
+
 
 """
 #totalmente funcional - vai buscar a noticia 19. pode ser alterado para ser 0 (primeira) ou outra qualquer

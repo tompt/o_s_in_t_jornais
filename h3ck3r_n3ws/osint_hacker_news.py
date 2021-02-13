@@ -37,7 +37,11 @@ def post_is_in_db(title):
 # return true if the title is in the database with a timestamp > limit
 def post_is_in_db_with_old_timestamp(title):
     print("utf ----------------------------------- title:%s" % title)
-    title=title.encode('latin-1')
+    try:
+         title=title.encode('latin-1')
+    except:
+         title=title.encode('utf-8')
+            
     print("latin ----------------------------------- title:%s" % title)
     with open(db, 'r', encoding="latin-1") as database:
         for line in database:
